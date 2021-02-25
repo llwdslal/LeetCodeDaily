@@ -13,8 +13,8 @@
 public class FlippingAnImage_832_easy {
     public static void main(String[] args) {
         int[][] origin = {{1,1,0},{1,0,1},{0,0,0}};
-        printArr(origin);
-        printArr(flipAndInvertImage(origin));
+        Utils.printArr(origin);
+        Utils.printArr(flipAndInvertImage(origin));
     }
     public static int[][] flipAndInvertImage(int[][] A) {
         // row
@@ -77,14 +77,4 @@ public class FlippingAnImage_832_easy {
 //        return A;
 //    }
 
-    static void printArr(int[][] arr){
-        for (int i = 0; i < arr.length; i++) {
-            int[] row = arr[i];
-            for (int j = 0; j < row.length; j++) {
-                System.out.print(row[j] + " ");
-            }
-            System.out.print('\t');
-        }
-        System.out.println();
-    }
 }
