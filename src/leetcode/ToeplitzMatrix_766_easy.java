@@ -1,3 +1,5 @@
+package leetcode;
+
 /***
  * 给你一个 m x n 的矩阵 matrix 。如果这个矩阵是托普利茨矩阵，返回 true ；否则，返回 false 。
  *

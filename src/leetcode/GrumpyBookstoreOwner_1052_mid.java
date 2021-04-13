@@ -1,3 +1,5 @@
+package leetcode;
+
 /***
  * 今天，书店老板有一家店打算试营业 customers.length 分钟。
  *
