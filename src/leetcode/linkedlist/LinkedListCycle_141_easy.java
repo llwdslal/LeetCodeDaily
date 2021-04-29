@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.linkedlist;
 
 
 /**
@@ -29,6 +29,11 @@ public class LinkedListCycle_141_easy {
     }
 
     static public class Solution {
+        /**
+         * 快慢指针， 慢指针一次走一步 ， 快指针一次走两步 ，  快慢指针相遇 链表有环
+         * @param head
+         * @return
+         */
         public boolean hasCycle(ListNode head) {
             if (head == null || head.next == null){
                 return false;

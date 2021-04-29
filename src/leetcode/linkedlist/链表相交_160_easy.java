@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.linkedlist;
 
 
 public class 链表相交_160_easy {
