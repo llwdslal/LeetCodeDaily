@@ -1,7 +1,7 @@
-package leetcode;
+package leetcode.linkedlist;
 
 
-public class MergeTwoSortedLists_21_easy {
+public class 合并两个有序链表_21_easy {
     public static void main(String[] args) {
       //  l1 = [1,2,4], l2 = [1,3,4]
         ListNode l1 = new ListNode(1,new ListNode(2,new ListNode(4)));

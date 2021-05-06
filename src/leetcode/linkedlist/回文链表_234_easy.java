@@ -5,6 +5,12 @@ import java.util.List;
 
 public class 回文链表_234_easy {
 
+    public static void main(String[] args) {
+        ListNode node1 = new ListNode(1,new ListNode(2));
+        Solution2 solution2 = new Solution2();
+        System.out.println(solution2.isPalindrome(node1));
+    }
+
 
     static class Solution2 {
         public boolean isPalindrome(ListNode head) {

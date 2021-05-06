@@ -11,7 +11,7 @@ package leetcode.linkedlist;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/linked-list-cycle
  */
-public class LinkedListCycle_141_easy {
+public class 环形链表_141_easy {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         ListNode node1 =  new ListNode(2);
