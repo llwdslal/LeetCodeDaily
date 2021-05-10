@@ -1,5 +1,7 @@
 package leetcode.stack;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 /**
@@ -33,7 +35,7 @@ public class 有效的括号_20_easy {
             if (strLength % 2 == 1) {
                 return false;
             }
-            Stack<Character> stack = new Stack<>();
+            Deque<Character> stack = new ArrayDeque<>();
             for (int i = 0; i < strLength; i++) {
                 char ch = s.charAt(i);
                 switch (ch){

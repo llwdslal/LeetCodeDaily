@@ -1,5 +1,6 @@
 package leetcode.stack;
 
+import java.util.ArrayDeque;
 import java.util.Stack;
 
 /**
@@ -20,15 +21,15 @@ import java.util.Stack;
 public class 最小栈_155_easy {
     static class MinStack {
 
-        Stack<Integer> stack;
-        Stack<Integer> minStack;
+        ArrayDeque<Integer> stack;
+        ArrayDeque<Integer> minStack;
 
         /**
          * initialize your data structure here.
          */
         public MinStack() {
-            stack = new Stack<>();
-            minStack = new Stack<>();
+            stack = new ArrayDeque<>();
+            minStack = new ArrayDeque<>();
             minStack.push(Integer.MAX_VALUE);
         }
 

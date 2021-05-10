@@ -2,6 +2,8 @@ package leetcode.stack;
 
 import utils.Utils;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.Stack;
 
@@ -19,7 +21,7 @@ public class 下一个更大元素_496_easy {
     static class Solution2 {
         public int[] nextGreaterElement(int[] nums1, int[] nums2) {
             int[] resultArr = new int[nums1.length];
-            Stack<Integer> stack = new Stack<>();
+            Deque<Integer> stack = new ArrayDeque<>();
             HashMap<Integer,Integer> map = new HashMap<>();
             for (int i = nums2.length -1; i >= 0; i--) {
                 int num = nums2[i];

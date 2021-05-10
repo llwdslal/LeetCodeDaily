@@ -1,5 +1,7 @@
 package leetcode.stack;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 /**
@@ -48,13 +50,13 @@ public class 用栈实现队列_232_easy {
      */
     class MyQueue {
 
-        Stack<Integer> inStack;
-        Stack<Integer> outStack;
+        Deque<Integer> inStack;
+        Deque<Integer> outStack;
 
         /** Initialize your data structure here. */
         public MyQueue() {
-            inStack = new Stack<>();
-            outStack = new Stack<>();
+            inStack = new ArrayDeque<>();
+            outStack = new ArrayDeque<>();
         }
 
         /** Push element x to the back of queue. */
