@@ -32,7 +32,7 @@ public class 整理字符串_1544_easy {
             StringBuilder sb = new StringBuilder();
             sb.append(s.charAt(0));
             for (int i = 1; i < s.length(); i++) {
-                char ch = s.charAt(i)
+                char ch = s.charAt(i);
                 int lastIndex = sb.length() - 1;
                 // 大小写字符 ascii 码相差  32
                 if (lastIndex >= 0 && Math.abs(ch - sb.charAt(lastIndex)) == 32){
