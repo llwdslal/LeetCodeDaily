@@ -30,5 +30,15 @@ public class Utils {
         System.out.println("=================================");
     }
 
+    public static void printArr(int[] arr){
+        System.out.println("=================================");
+        Arrays.stream(arr).forEach(item -> {
+            System.out.print(item);
+            System.out.print('\t');
+        });
+        System.out.println();
+        System.out.println("=================================");
+    }
+
 
 }
