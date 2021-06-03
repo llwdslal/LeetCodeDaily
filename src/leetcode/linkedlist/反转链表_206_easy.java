@@ -16,15 +16,9 @@ package leetcode.linkedlist;
 public class 反转链表_206_easy {
 
     static class Solution2 {
-        public ListNode reverseList(ListNode head) {
-            if (head == null || head.next == null){
-                return head;
-            }
-            ListNode newHead = reverseList(head.next);
-            head.next.next = head;
-            head.next = null;
-            return newHead;
-        }
+//        public ListNode reverseList(ListNode head) {
+//
+//        }
     }
 
     static class Solution1 {
