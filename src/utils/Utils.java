@@ -30,7 +30,7 @@ public class Utils {
         System.out.println("=================================");
     }
 
-    public static  void printArr(int[] arr){
+    public static void printArr(int[] arr){
         System.out.println("=================================");
         Arrays.stream(arr).forEach(item -> {
             System.out.print(item);
