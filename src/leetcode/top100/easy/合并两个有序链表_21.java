@@ -13,7 +13,7 @@ import utils.ListNode;
 public class 合并两个有序链表_21 {
 
    static class Solution2 {
-        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        public ListNode mergeTwoLists(ListNode<Integer> l1, ListNode<Integer> l2) {
             if (l1 == null){
                 return l2;
             }
@@ -31,7 +31,7 @@ public class 合并两个有序链表_21 {
     }
 
     class Solution {
-        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        public ListNode mergeTwoLists(ListNode<Integer> l1, ListNode<Integer> l2) {
             ListNode newHead = new ListNode(0);
             ListNode cur = newHead;
             while (l1 != null && l2 != null){
